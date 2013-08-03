@@ -5,6 +5,18 @@
 #Code For Beginners Course:
 
 
+#Speaking Backwards
+#-----------------------------------
+#This works, but throws up errors
+output = 0
+t = input("Line: ")
+m= (len(t)) -1
+for i in range(m, -1, -1):
+  x = t[i]
+  print(x, end="")
+#-----------------------------------
+
+
 
 
 
